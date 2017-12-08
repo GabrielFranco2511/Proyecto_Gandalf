@@ -24,6 +24,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   </head>
   <body data-spy="scroll" data-target="#navbar-default">
     <!--- Agregamos el componente jumbotron -->
@@ -32,7 +33,7 @@
 
           <!--- Aqui  cierra el logo, y agregamos los iconos de redes sociales -->
        
-              <nav class="navbar navbar-default">
+              <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                   <ul class="nav navbar-nav ">
                     <li><a id="hidden" href="#"> </a></li>
@@ -41,7 +42,7 @@
                     <li><a id="hidden" href="#"> </a></li>
                     <li><a id="hidden" href="#"> </a></li>
                     <li><a id="hidden" href="#"> </a></li>
-                    <li><a href="#home" class="navbar-brand"><img src="imagenes/logog.png" style="margin-top:-25px; width: 111px;"></a> </li>
+                    <li><a href="#" class="navbar-brand"><img src="imagenes/logog.png" style="margin-top:-15px; width: 91px;"></a> </li>
                     <li><a id="hidden" href="#"> </a></li>
                     <li><a id="hidden" href="#"> </a></li>
                      <li><a id="hidden" href="#"> </a></li>
@@ -51,7 +52,7 @@
                     <li><a href="#mercados" class="mercados">MERCADOS</a></li>
                     <li><a id="hidden2" href=""> </a></li>
                     <li><a id="hidden2" href="#"> </a></li>   
-                    <li><a href="#soporte" class="soportet">SOPORTE </a></li>
+                    <li><a href="#soporte" class="soporte">SOPORTE </a></li>
                     <li><a id="hidden4" href="#"> </a></li>
                     
                   </ul> 
@@ -64,6 +65,7 @@
 
   
   <section id="fondo">
+    <br><br><br>
     <section>
 
      <div class="container page-header" id="home" style="width: 53%;">
@@ -143,94 +145,96 @@
    </div>
         </section>
 
-    
-  <br>
-  <br>
-  <br>
+  
+  
     
       <section class="page-header" id="servicios"> 
-  
-        <h2 style="text-align: center" id="titulo"> SERVICIOS </h2>
-            <br><br>
+  <br>
+  <br>
+  <br>
+        <h2 style="text-align: center" id="titulo" class="wow bounceInLeft"> SERVICIOS </h2>
+            <br>
         <div class="container">
           <div class="row text-center">
 
             <div class="col-xs-12 col-sm-4">
                 <div class="intento">
-                  <h3> Acceso dedicado a Internet </h3> <br>
-                  <h4>Ahora su negocio estará conectado a Internet 24 horas al día, los 7 días de la semana sin interrupciones.Cada estación de trabajo de su empresa podrá conectarse a la red para el desarrollar su trabajo.La instalación es rápida y sencilla. </h4>
-                  <h4>Ofrecemos anchos de banda desde 256 kbps hasta los 4 Mbps a precios realmente competitivos. </h4> <br><br>
+                  <h3 style="text-decoration: underline;" class="wow shake" data-wow-delay="2s"> Acceso dedicado a Internet </h3> <br>
+                  <h4 class="wow bounceInUp" data-wow-delay="0.4s">Ahora su negocio estará conectado a Internet 24 horas al día, los 7 días de la semana sin interrupciones.Cada estación de trabajo de su empresa podrá conectarse a la red para el desarrollar su trabajo.La instalación es rápida y sencilla. </h4>
+                   <br><br>
 
-                <img src="imagenes/redes33.png" width="301px" height="214px">
+                <img src="imagenes/redes33.png" width="301px" height="194px" class="wow bounceInLeft" data-wow-delay="3.4s">
                 </div>
 
             </div>
 
             <div class="col-xs-12 col-sm-4">
-              <h3> Internet Banda Ancha </h3> <br>
-              <h4> Si está buscando un servicio de Internet que sí funcione y que le dé la rapidez que necesita, le ofrecemos la mejor solución:</h4>
-              <h4>- Usted tendrá Internet Inhalámbrico ilimitado las <strong> 24 horas del día por los 365 días del año. </strong> </h4>
-              <h4>- Tolerancia a <strong> cualquier tipo de fallas o interrupciones </strong> que puedan dañar su experiencia. </h4> <br>
-              <img src="imagenes/redes111.jpg" width="301px" height="224px">
+              <h3 style="text-decoration: underline;" class="wow shake" data-wow-delay="2s" > Internet Banda Ancha </h3> <br>
+              <h4 class="wow bounceInUp" data-wow-delay="0.8s"> Si está buscando un servicio de Internet que sí funcione y que le dé la rapidez que necesita, le ofrecemos la mejor solución:</h4>
+              <h4 class="wow bounceInUp" data-wow-delay="0.8s">Usted tendrá Internet Inhalámbrico ilimitado las <strong> 24 horas del día por los 365 días del año. </strong> </h4>
+              <br>
+              <img src="imagenes/redes111.jpg" width="301px" height="194px" class="wow bounceInLeft" data-wow-delay="2.8s"">
             </div>
 
             <div class="col-xs-12 col-sm-4">
-              <h3> Redes Virtuales o interconexión VPN </h3>
-              <h4>Con este servicio usted podrá interconectar una o varias redes de su empresa en una sola red con un ancho de banda que va desde 64 kbps hasta 36 Mbps </h4>
-              <h4> Además podrá integrar los sistemas administrativos, de inventario y de seguridad en un solo lugar,  pudiendo: supervisar, administrar y auditar todos los recursos de su negocio </h4> <br><br>
-              <img src="imagenes/redes3.jpg" width="301px" height="224px" id="imagen1">
+              <h3 style="text-decoration: underline;" class="wow shake" data-wow-delay="2s"> Redes Virtuales o interconexión VPN </h3>
+              <h4 id="redesh4" class="wow bounceInUp" data-wow-delay="1.4s">Con este servicio usted podrá interconectar una o varias redes de su empresa en una sola red con un ancho de banda que va desde 64 kbps hasta 36 Mbps. </h4>
+              <br><br><br>
+              <img src="imagenes/redes3.jpg" width="301px" height="194px" id="imagen1" class="wow bounceInLeft" data-wow-delay="2.4s">
             </div>
 
           </div>
         </div>
       </section>
 
-  <br> <br> 
+   
       <section class="page-header" id="mercados">
-            
+         <br>
+         <br>
+         <br>   
         <h2 style="text-align: center;" id="titulo"> MERCADOS </h2>
 
-        <br> <br> 
+        <br> 
         <div class="container">
           <div class="row text-center">
             
             <div class="col-xs-12 col-sm-3">
-              <h3> Región Zuliana </h3> <br>
-              <h4> Celdas Operativas:</h4h4
+              <h3 style="text-decoration: underline;" class="wow flip"> Región Zuliana </h3> <br>
+              <h4 style="color:blue;" class="wow rotateIn" data-wow-delay="0.3s"> Celdas Operativas:</h4>
               <h4> Maracaibo,San Francisco, Cabimas, Los Puertos,San Carlos, Ciudad Ojeda y La Villa del Rosario </h4>
-              <h4> Celdas Propuestas:</h4> 
-              <h4> El Moján,La Concepción,Lagunillas,Bachaquero </h4>
-              <img src="imagenes/zu.png" width="241px" height="214px" id="cuadro2">
+              <h4 style="color: orange;" class="wow rotateIn" data-wow-delay="0.6s"> Celdas Propuestas: </h4> 
+              <h4> El Moján,La Concepción,Lagunillas</h4>
+              <img src="imagenes/zu.png" width="241px" height="214px" id="cuadro1" class="wow rollIn" data-wow-delay="2.6s">
             </div>
 
             <div class="col-xs-12 col-sm-3">
-              <h3> Región de Táchira </h3> <br>
-              <h4> Celdas Operativas:</h4>
+              <h3 style="text-decoration: underline;" class="wow flip"> Región de Táchira </h3> <br>
+              <h4 style="color:blue;" class="wow rotateIn" data-wow-delay="0.9s"> Celdas Operativas:</h4>
               <h4> San Cristóbal,Barranca,Los Kioscos,Puente Real, La Guacara, La Concordia, Santa Ana </h4>
-              <h4> Celdas Propuestas:</h4> 
+              <h4 style="color: orange;" class="wow rotateIn" data-wow-delay="1s"> Celdas Propuestas:</h4> 
               <h4> Rubio, Capacho Viejo, Cordero</h4>   
-              <img src="imagenes/tc.png" width="241px" height="214px" id="cuadro1">
+              <img src="imagenes/tc.png" width="241px" height="214px" id="cuadro2" class="wow rollIn" data-wow-delay="2.4s">
             </div>
 
 
               <div class="col-xs-12 col-sm-3">
-               <h3> Región De Mérida </h3> <br>
-               <h4> Celdas Operativas:</h4>
-               <h4 Mérida,Pedragoza Norte,Carrizales,Mara,Mucuchies,San Rafael,Mocao, El Valle.</h4>
-               <h4> Celdas Propuestas:</h4> 
-               <h4> San Juan, Lagunillas, La Gónzalez, Tabay, Las Mercedes </p> <br><br><br><br>
-               <img src="imagenes/me.png" width="241px" height="224px" id="cuadro2">
+               <h3 style="text-decoration: underline;" class="wow flip"> Región De Mérida </h3> <br>
+               <h4 style="color:blue;" class="wow rotateIn" data-wow-delay="1.2s"> Celdas Operativas:</h4>
+               <h4 id="h4merida2"> Mérida,Pedragoza Norte,Carrizales,Mara,Mucuchies.</h4><br>
+               <h4 style="color: orange;" id="h4merida2" class="wow rotateIn" data-wow-delay="1.4s"> Celdas Propuestas:</h4> 
+               <h4> San Juan, Lagunillas, La Gónzalez, Tabay, Las Mercedes </p> <br>
+               <img src="imagenes/me.png" width="241px" height="224px" id="cuadro3" class="wow rollIn" data-wow-delay="2s">
               </div>
 
 
               <div class="col-xs-12 col-sm-3">
-                <h3> Región De Trujillo </h3> <br>
-                <h4> Celdas Operativas: </h4>
+                <h3 style="text-decoration: underline;" class="wow flip"> Región De Trujillo </h3> <br>
+                <h4 style="color:blue;" class="wow rotateIn" data-wow-delay="1.6s"> Celdas Operativas: </h4>
                 <h4> Esquque, Valera </h4>
                 <h4> Celdas Propuestas:</h4> 
                 <h4> Trujillo y Montatán </h4> <br>
-                <br><br>
-                <img src="imagenes/tr.png" width="241px" height="224px" id="cuadro1">
+                <br>
+                <img src="imagenes/tr.png" width="241px" height="224px" id="cuadro4" class="wow rollIn" data-wow-delay="1.8s">
               </div>
 
 
@@ -238,49 +242,51 @@
         </div>  
       </section>
       
-      <br> <br>
+    
 
 
       <section class="page-header" id="soporte">
-        <h2 style="text-align: center;" id="titulo"> SOPORTE </h2>
-
-      
+         <br>
+         <br>
+         <br>
+        <h2 style="text-align: center;" id="titulo" class="wow zoomInDown"> SOPORTE </h2>
+         
         <div class="container">
           <div class="row text-center">
-            <h2> Puede contactar con nuestra sólida red de Atención al Cliente en cualquiera de nuestras sedes, las 24 horas del dia, los 365 días del año. </h2>
+            <h2 class="wow slideOutDown"> Puede contactar con nuestra sólida red de Atención al Cliente en cualquiera de nuestras sedes, las 24 horas del dia, los 365 días del año. </h2>
                 
               <br>
 
             <div class="col-xs-12 col-sm-3">
-              <h3> <strong> Sede Principal Maracaibo </strong></h3> <br>
-              <h4> <strong> Telefono: </strong></h4>
-              <h4> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 261-7434358 </p> <br>
-              <img src="imagenes/maps.png" width="241px" height="214px" id="cuadro">
+              <h3 style="text-decoration: underline; color: green;" class="wow slideInLeft"> <strong> Sede Principal Maracaibo </strong></h3>
+              <h4 style="text-decoration: underline; color: blue;" class="wow slideInLeft"> <strong> Telefono: </strong></h4>
+              <h4 class="wow slideInLeft"> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 261-7434358 </p></h4> <br>
+              <img src="imagenes/maps.png" width="241px" height="194px" id="cuadro" class="wow bounceIn" data-wow-delay=".7s">
             </div>
 
             <div class="col-xs-12 col-sm-3">
-              <h3> Oficina del Estado Táchira </h3> <br>
-              <h4><strong> Telefono: </strong></h4>
-              <h4> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 276-3534452 </p>
+              <h3 style="text-decoration: underline; color: green;" class="wow slideInLeft"> Oficina del Estado Táchira </h3>
+              <h4 style="text-decoration: underline; color: blue;" class="wow slideInLeft"><strong> Telefono: </strong></h4>
+              <h4 class="wow slideInLeft"> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 276-3534452 </p></h4>
               <br>
-              <img src="imagenes/maps.png" width="241px" height="214px" id="cuadro">
+              <img src="imagenes/maps.png" width="241px" height="194px" id="cuadro" class="wow bounceIn" data-wow-delay=".7s">
             </div>
 
             <div class="col-xs-12 col-sm-3">
-              <h3> Oficina del Estado Mérida </h3> <br>
-              <h4> <strong> Telefono: </strong></h4>
-              <h4> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 276-3534452 </h4>
+              <h3 style="text-decoration: underline; color: green;" class="wow slideInLeft"> Oficina del Estado Mérida </h3>
+              <h4 style="text-decoration: underline; color: blue;" class="wow slideInLeft"> <strong> Telefono: </strong></h4>
+              <h4 class="wow slideInLeft"> <i class="fa fa-phone fa-2x" aria-hidden="true" ></i> 276-3534452 </h4>
               <br>
-              <img src="imagenes/maps.png" width="241px" height="214px" id="cuadro">
+              <img src="imagenes/maps.png" width="241px" height="194px" id="cuadro" class="wow bounceIn" data-wow-delay=".7s">
             </div>
 
 
               <div class="col-xs-12 col-sm-3">
-                <h3> Oficina de la Ciudad de Punto Fijo </h3> <br>
-                <h4> <strong> Telefono: </strong></h4>
-                <h4> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 269-2473868 </h4>
+                <h3 style="text-decoration: underline; color: green;" class="wow slideInLeft"> Oficina de la Ciudad de Punto Fijo </h3> 
+                <h4 style="text-decoration: underline; color: blue;" class="wow slideInLeft"> <strong> Telefono: </strong></h4>
+                <h4 class="wow slideInLeft"> <i class="fa fa-phone fa-2x" aria-hidden="true"></i> 269-2473868 </h4>
                 <br>
-                <img src="imagenes/maps.png" width="241px" height="214px" id="cuadro">
+                <img src="imagenes/maps.png" width="241px" height="194px" id="cuadro" class="wow bounceIn" data-wow-delay=".7s">
               </div>
 
 
@@ -299,6 +305,8 @@
     </div>
   </footer>
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   	<script type="text/javascript" src="js/wow.min.js"></script>
+   	<script> new WOW().init(); </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
